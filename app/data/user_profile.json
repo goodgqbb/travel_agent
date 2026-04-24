@@ -1,0 +1,18 @@
+{
+  "basic_info": {
+    "home_city": "重庆市南岸区江南水岸",
+    "companions": ""
+  },
+  "preferences": {
+    "travel_style": [
+      "自然风光游",
+      "爬山",
+    ],
+    "accommodation": "",
+    "dietary": [
+      "少盐少辣"
+    ],
+    "transportation": "偏好自驾"
+  },
+  "health_notes": []
+}

@@ -1,0 +1,16 @@
+langgraph>=0.0.60
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+
+fastapi>=0.111.0
+uvicorn>=0.30.0          # FastAPI 的 ASGI 服务器
+pydantic>=2.7.0          # 核心数据校验层，防大模型幻觉必备
+
+qdrant-client>=1.9.0     # 向量数据库客户端 (长期记忆)
+redis>=5.0.4             # 缓存与 Session 状态管理 (短期记忆)
+
+tenacity>=8.3.0          # 核心重试库 (处理外部 API 超时/降级的神兵利器)
+python-dotenv>=1.0.1     # 安全加载 .env 环境变量
+pyyaml>=6.0.1            # 解析 config 和 prompt 配置文件
+requests>=2.31.0         # 调用高德/天气等外部 API
