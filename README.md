@@ -84,7 +84,7 @@ travel_agent/
 ├── config/              # 系统配置目录 (存放 config.yaml 业务规则与系统指令)
 ├── templates/           # 前端 UI 模板目录 (基于 FastAPI 渲染的界面或组件)
 ├── testimage/           # 多模态测试目录 (存放用于视觉感知 Agent 测试的本地图片)
-├── tests/               # 自动化测试用例目录
+├── tests/               # 测试与调试
 ├── .env.example         # 环境变量配置模板
 ├── requirements.txt     # Python 核心依赖清单
 └── README.md            # 项目说明文档
